@@ -245,11 +245,173 @@ body {
    background: #4aaaa5;
    border: 0 none;
  } 
- @media screen and (max-width: 980px) {}
 
- @media screen and (max-width: 768px) {}
 
- @media screen and (max-width: 640px) {}
+ @media screen and (max-width: 980px) {
+    .auth-image {
+   width: 100%;
+   height: auto;
+   margin-top: 10px;
+   margin-right: 25px;
+   margin-bottom: 10px;
+ }
+   .main-section {
+   padding: 30px;
+   margin: 0 0 40px 75px;
+   width: 100%;
+   max-width: 450px;
+   float: left;
+   background: #fff;
+   border: 1px solid #ddd;
+ }
+   .sidebar {
+      margin-right: 100px;
+   }
+
+   #logo {
+      margin-left: 75px;
+   }
+
+   nav {
+      margin-right: 100px;
+   }
+   
+   .work  {
+      position: relative;
+      width: 100%;
+      overflow: auto;
+      float: left;
+      margin: 20px 0 25px;
+   }
+ 	
+ }
+
+ @media screen and (max-width: 768px) {
+    .auth-image {
+    width: 200px;
+   height: auto;
+   margin-top: 10px;
+   margin-right: 25px;
+   margin-bottom: 10px;
+ }
+   .main-section {
+   padding: 30px;
+   margin: 0 0 40px 75px;
+   width: 100%;
+   max-width: 650px;
+   float: left;
+   background: #fff;
+   border: 1px solid #ddd;
+ }
+   .sidebar {
+   padding: 30px;
+   margin: 10px 45px 10px 45px;
+   width: 100%;
+   max-width: 650px;
+   }
+
+   #logo {
+      margin-left: 75px;
+   }
+
+   nav {
+      margin-right: 100px;
+   }
+   
+   .work  {
+      position: relative;
+      width: 274px;
+      height: 222px;
+      overflow: auto;
+      float: left;
+      margin: 20px 0 25px;
+   }
+
+   .work img {
+      height: 210px;
+   }
+
+   .work h3 {
+    position: absolute;
+    bottom: 20px;
+    margin-bottom: 0;
+    padding: 15px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 300;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+   
+ }
+
+ @media screen and (max-width: 640px) { 
+ 	#masthead {
+   position: static; 
+   margin: 0px;
+   }
+   
+   #main-container {
+    padding-top: 25px;
+   }
+
+   .container {
+      max-width: 640px;
+   }
+    
+   .auth-image {
+   width: 100%;
+   height: auto;
+   margin-top: 10px;
+   margin-right: 25px;
+   margin-bottom: 10px;
+ }
+   .main-section {
+   padding: 30px;
+   margin: 0px 0px 10px 20px;
+   width: 100%;
+   max-width: 600px;
+   float: left;
+   background: #fff;
+   border: 1px solid #ddd;
+ }
+    .sidebar {
+   padding: 30px;
+   margin: 10px 20px 10px 10px;
+   width: 100%;
+   max-width: 600px;
+   }
+
+
+   #logo {
+   width: 100%;
+   margin: 0;
+   }
+
+   nav {
+   width: 100%;
+   margin: 0;
+   }
+
+   nav a {    
+      margin: 25px 10px 25px 70px
+   }
+
+   .work  {
+   position: relative;
+   width: 100%;
+   height: auto;
+   overflow: auto;
+   float: left;
+   margin: 20px 0 25px;
+   }
+
+   .work img {
+      height: 350px;
+   }
+}
 
 
 
